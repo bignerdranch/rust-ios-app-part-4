@@ -1,0 +1,16 @@
+[package]
+name = "copying_view_model"
+version = "0.1.0"
+authors = ["John Gallagher <jgallagher@bignerdranch.com>"]
+build = "build.rs"
+
+[lib]
+name = "copying_view_model"
+crate-type = ["staticlib"]
+
+[dependencies]
+libc = "0.2"
+rand = "0.3"
+
+[build-dependencies]
+rusty-cheddar = "0.3.1"
